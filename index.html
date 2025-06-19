@@ -1,11 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"><!-- Link to external CSS file -->
 </head>
+
 <body>
      <pre><img src="images/img.png" alt="imageexample" width="40" height="40">       html                    ❌  🔍  ✨</pre>
        <hr>
@@ -33,5 +34,41 @@
     developer.mozilla.org > en-US > docs > Web > HTML<br>
     <h1>HTML: HyperText Markup Language | MDN</h1>
     May 14, 2025 - HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally us...</p><img src="images/imgg.png" alt="imageexample" width="100" height="80">
+
+<br>
+<br>
+<form>
+    <label>Name:</label><br>
+    <input type="text" id="name" placeholder="Enter your name" required><br>
+    <label>Age:</label><br>
+    <input type="number" id="age" placeholder="Enter your age" required><br>
+    <label>Email:</label><br>
+    <input type="email" id="email" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password"placeholder="Enter your password" required><br>
+    <label>Phone:</label><br>
+    <input type="tel" id="phone" placeholder="Enter your phone number" required><br>
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label>male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">female</label><br>
+    <label for="date">Enter your date of birth:</label><br>
+    <input type="date" id="date" required><br>
+    <label>Select a fruit:</label><br>
+    <select id="fruit" required>
+        <option value="">--Please choose a fruit--</option>
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+    </select><br>
+    <label>Upload a File:</label><br>
+    <input type="file" id="file" required><br>
+    <input type="checkbox" id="agree" name="Agree" required>
+    <label for="agree">Agree to terms and conditions</label><br>
+    <label>Message:</label><br>
+    <textarea id="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br>
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
